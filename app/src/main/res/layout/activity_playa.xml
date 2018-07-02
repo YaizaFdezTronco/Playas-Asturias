@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_playa_info_scrollview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".actividades.PlayaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="ObsoleteLayoutParam,UselessLeaf">
+
+        <TextView
+            android:id="@+id/textViewNombrePlaya"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:text="Cala Salencia"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:textStyle="normal|bold"
+            android:visibility="visible"
+            tools:ignore="HardcodedText" />
+
+
+        <LinearLayout
+            android:id="@+id/layoutImagen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            tools:ignore="ObsoleteLayoutParam">
+
+            <ImageView
+                android:id="@+id/imagen_playa"
+                android:layout_width="match_parent"
+                android:layout_height="293dp"
+                android:layout_below="@+id/layoutImagen"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false"
+                android:padding="5dp"
+                android:paddingBottom="1dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/calasaliencia"
+                tools:ignore="ContentDescription,duplicateIds" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/textViewConcejo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Concejo"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/textViewNombreConcejo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:text="Cudillero"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            android:visibility="visible"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textViewCoordenadas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Coordenadas"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/textViewDatosCoordenadas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:text="+43.57245,-6.28010"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            android:visibility="visible"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textViewZona"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Zona"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/textViewDatosZona"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:text="Occidente de Asturias"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:textStyle="normal"
+            android:visibility="visible"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textViewInformacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Informacion"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/textViewDatosInformacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:text="Forma parte del Paisaje Protegido de la Costa Occidental de Asturias.Se recomienda extremar las precauciones a la hora del baño. En caso de emergencia llamar al 112.Cala Salencia es la primera playa del concejo de Cudillero tener permitido el acceso a perros durante todo el año."
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            android:visibility="visible"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textViewTipoPlaya"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tipo de la playa"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/textViewDatoTipoPlaya"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:text="Es una cala principalmente compuesta por bolos"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            android:visibility="visible"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textViewLongitudPlaya"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Longitud de la playa"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/textViewDatoLongitud"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:text="150 m."
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            android:visibility="visible"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textViewAccesos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Accesos"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/textViewDatosAcceso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:text="Para acceder a la cala, nos situamos en el pueblo de Novellana tomando la salida 444 por la A-8."
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            android:visibility="visible"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textViewServicios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Servicios"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/textViewDatosServicios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:text="Admite animales"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            android:visibility="visible"
+            tools:ignore="HardcodedText" />
+
+
+        <LinearLayout
+            android:id="@+id/botones"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/botonMapa"
+                style="@android:style/Widget.DeviceDefault.Button.Inset"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ver mapa"
+                android:textSize="18sp"
+                tools:ignore="ButtonStyle,HardcodedText,InefficientWeight" />
+
+
+            <Button
+                android:id="@+id/botonFavoritos"
+                style="@android:style/Widget.DeviceDefault.Button.Inset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Añadir a favoritos"
+                android:textSize="18sp"
+                tools:ignore="ButtonStyle,HardcodedText" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/vistaprincipal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".actividades.Principal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/TituloMapa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mapa de asturias"
+        android:textSize="24sp"
+        android:visibility="visible"
+        app:fontFamily="casual"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewMapaAsturias"
+        android:layout_width="match_parent"
+        android:layout_height="109dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/asturias" />
+
+
+    <!--<Button
+        android:id="@+id/buttonIrATodas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="vertodasLasPlayas"
+        android:text="Ir a todas"
+        android:typeface="serif" />-->
+
+    <TextView
+        android:id="@+id/textViewListadePlaya"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lista de todas las playas"
+        android:textSize="24sp"
+        app:fontFamily="casual" />
+
+    <ListView
+        android:id="@+id/ListaPlayasPrincipal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore= "UselessLeaf">
+
+    </ScrollView>
+
+</LinearLayout>

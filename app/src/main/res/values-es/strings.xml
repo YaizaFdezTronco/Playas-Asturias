@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Playas de Asturias</string>
+    <string name="title_principal">Playas de Asturias</string>
+    <string name="title_activity_playa">Playas de Asturias</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="hello_fragment">Localizador de lista de playas de asturias</string>
+    <string name="title_activity_recycler_">Playas de Asturias</string>
+    <string name="title_activity_maps">Mapa</string>
+    <string name="title_activity_list_all">Playas de Asturias</string>
+</resources>

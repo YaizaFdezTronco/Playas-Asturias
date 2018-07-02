@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_list_all_playas"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.ListAllActivity">
+
+    <TextView
+        android:id="@+id/TextViewTodasLAsPlayas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Lista de todas las playas"
+        android:textSize="30sp"
+        android:typeface="serif" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview_listatodasplayas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Playa ejemplo"
+        android:id="@+id/nombrePlayaLista"
+        android:layout_toRightOf="@+id/imagenPlayaLista"
+        android:layout_toEndOf="@+id/imagenPlayaLista" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:id="@+id/imagenPlayaLista"
+        android:cropToPadding="false"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_alignParentTop="true"
+        android:maxHeight="35dp"
+        android:maxWidth="74dp"
+        android:adjustViewBounds="true" />
+
+</LinearLayout>

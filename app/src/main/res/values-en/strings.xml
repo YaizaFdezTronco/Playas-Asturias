@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">" Beaches of Asturias"</string>
+    <string name="title_principal">" Beaches of Asturias"</string>
+    <string name="title_activity_playa">" Beaches of Asturias"</string>
+    <string name="title_activity_recycler_">" Beaches of Asturias"</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_fragment">" Locator of beaches of asturias"</string>
+    <string name="title_activity_list_all">" Beaches of Asturias"</string>
+</resources>

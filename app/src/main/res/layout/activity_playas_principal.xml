@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Playa ejemplo"
+        android:id="@+id/nombrePlayaLista"
+        android:layout_toRightOf="@+id/imagenPlayaLista"
+        android:layout_toEndOf="@+id/imagenPlayaLista" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:id="@+id/imagenPlayaLista"
+        android:cropToPadding="false"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_alignParentTop="true"
+        android:maxHeight="35dp"
+        android:maxWidth="74dp"
+        android:adjustViewBounds="true" />
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+    <ImageView
+        android:id="@+id/imagenPlayaLista"
+        android:layout_width="200dp"
+        android:layout_height="76dp"
+        android:layout_weight="0.21"
+        android:adjustViewBounds="true"
+        android:contentDescription="Descripción del contenido de la imagen"
+        android:paddingBottom="4dp"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:paddingTop="4dp"
+        android:scaleType="fitXY"
+        android:src="@android:drawable/ic_menu_gallery"
+        tools:ignore="HardcodedText,InefficientWeight" />
+
+
+        <LinearLayout
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.52"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nombrePlayaLista"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="2dp"
+                android:paddingLeft="10dp"
+                android:text="Playa España"
+                android:textSize="24sp"
+                android:textStyle="italic"
+                android:typeface="serif"
+                tools:ignore="HardcodedText,RtlSymmetry" />
+
+        </LinearLayout>
+
+    </LinearLayout>-->
+
+
+</RelativeLayout>

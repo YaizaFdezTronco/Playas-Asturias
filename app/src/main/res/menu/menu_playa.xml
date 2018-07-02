@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.imovil.uo237484.playasdeasturias.actividades.PlayaActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        android:visible="false"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_todaslasplayas"
+        android:title="Todas las playas"
+        android:orderInCategory="102"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/menu_favoritos"
+        android:orderInCategory="101"
+        android:title="Playas favoritas" />
+    <item
+        android:id="@+id/menu_informacion"
+        android:orderInCategory="104"
+        android:title="Informacion de la app" />
+    <item
+        android:id="@+id/menu_salir"
+        android:orderInCategory="105"
+        android:title="Salir"/>
+</menu>
+
